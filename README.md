@@ -13,3 +13,7 @@ Celery: For handling asynchronous tasks such as sending notifications or process
 Redis: Used for caching and session management.
 Docker: Containerization tool for consistent development and deployment environments.
 CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
+
+
+    Database Design
+Users, Properties, Bookings, Reviews, and Payments
