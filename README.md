@@ -184,4 +184,62 @@ Enables users to search for properties based on location, price, dates, ratings,
 7. Booking History and User Dashboard
 Displays users' past and upcoming bookings, property listings (for hosts), and reviews. It centralizes user activities, making the platform more user-friendly and efficient for repeat interactions.
 
+             API Security
+
+🔐 1. Authentication
+What it is:
+Verifies the identity of users through mechanisms like email/password, OAuth, or two-factor authentication (2FA).
+
+Why it's crucial:
+Ensures only legitimate users can access their accounts, helping to protect personal data and prevent unauthorized access to sensitive information like bookings and payment details.
+
+🛡️ 2. Authorization
+What it is:
+Controls what authenticated users can do, based on roles (e.g., host, guest, admin).
+
+Why it's crucial:
+Prevents users from performing unauthorized actions—such as a guest editing someone else’s property—thus preserving data integrity and enforcing role-based access control.
+
+🚦 3. Rate Limiting
+What it is:
+Limits the number of requests a user or IP address can make in a given time.
+
+Why it's crucial:
+Protects the system from brute-force attacks, spam, and denial-of-service (DoS) attempts, ensuring platform stability and availability.
+
+🔐 4. Data Encryption (in Transit and at Rest)
+What it is:
+Encrypts sensitive data using HTTPS (TLS) during transmission and encrypts stored data using algorithms like AES.
+
+Why it's crucial:
+Prevents attackers from intercepting or accessing sensitive user data such as passwords, personal details, and financial information.
+
+💳 5. Secure Payment Processing
+What it is:
+Integrates with PCI-compliant payment gateways (e.g., Stripe, PayPal) and tokenizes payment data.
+
+Why it's crucial:
+Protects financial transactions and ensures that credit card data is not stored or exposed, building trust with users and reducing legal liability.
+
+🧾 6. Input Validation and SQL Injection Protection
+What it is:
+Sanitizes and validates all user input to avoid injection attacks or data corruption.
+
+Why it's crucial:
+Prevents malicious input that could lead to data breaches, database corruption, or exploitation of the application.
+
+🔍 7. Audit Logging and Monitoring
+What it is:
+Tracks user actions and system changes for analysis and anomaly detection.
+
+Why it's crucial:
+Helps identify suspicious behavior or unauthorized access, enabling faster incident response and enhancing accountability.
+
+🧑‍💼 8. Session Management
+What it is:
+Manages user sessions securely using cookies or tokens with proper expiration and revocation.
+
+Why it's crucial:
+Prevents session hijacking and cross-site request forgery (CSRF), safeguarding user sessions and login states.
+
 
