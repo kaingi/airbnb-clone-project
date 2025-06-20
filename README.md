@@ -158,3 +158,30 @@ Relationships:
 *Payment → belongs to one → Booking
 
 *Payment → belongs to one → User
+
+
+
+     Feature Breakdown
+
+1. User Management
+Enables registration, login, profile creation, and role assignment (e.g., guest or host). This feature is essential for authenticating users and controlling access based on roles, forming the foundation for personalized experiences and data tracking.
+
+2. Property Management
+Allows hosts to list new properties, add descriptions, photos, pricing, and availability. This feature empowers property owners to showcase their listings and attract bookings, driving the core inventory of the platform.
+
+3. Booking System
+Lets guests view availability and reserve properties for specific dates. It handles booking status (pending, confirmed, cancelled) and prevents double bookings, ensuring a smooth and reliable reservation process.
+
+4. Payment Integration
+Processes secure online payments for bookings using methods like credit/debit cards or digital wallets. It ensures a trustworthy transaction system between guests and hosts, supporting revenue generation for the platform.
+
+5. Review and Rating System
+Allows guests to leave feedback and rate properties after their stay. This promotes trust and transparency, helping future guests make informed decisions and encouraging hosts to maintain quality.
+
+6. Search and Filter Functionality
+Enables users to search for properties based on location, price, dates, ratings, and amenities. This improves user experience by helping them find suitable properties quickly and efficiently.
+
+7. Booking History and User Dashboard
+Displays users' past and upcoming bookings, property listings (for hosts), and reviews. It centralizes user activities, making the platform more user-friendly and efficient for repeat interactions.
+
+
