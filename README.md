@@ -243,3 +243,35 @@ Why it's crucial:
 Prevents session hijacking and cross-site request forgery (CSRF), safeguarding user sessions and login states.
 
 
+          CI/CD Pipeline
+
+🔄 What are CI/CD Pipelines?
+*CI/CD (Continuous Integration/Continuous Deployment) pipelines are automated workflows that streamline the process of building, testing, and deploying code.
+
+*Continuous Integration (CI) automatically integrates code changes from multiple contributors into a shared repository and runs tests to ensure stability.
+
+*Continuous Deployment (CD) automatically delivers tested code to production or staging environments with minimal manual intervention.
+
+✅ Why CI/CD is Important for the Project
+*Faster Development Cycles: Automates repetitive tasks like building, testing, and deployment, allowing teams to release updates more quickly.
+
+*Improved Code Quality: Automated tests catch bugs early, reducing the chances of breaking the app in production.
+
+*Reduced Downtime: Ensures stable and safe deployments through staged or blue-green release strategies.
+
+*Consistency: Eliminates human error in manual deployments and ensures the same process runs every time.
+
+*For a property rental/booking platform, CI/CD helps maintain reliability and uptime while pushing frequent updates such as new features, security patches, or UI improvements.
+
+🛠️ Tools Commonly Used in CI/CD Pipelines
+*GitHub Actions – For automating CI/CD workflows directly within GitHub repositories.
+
+*Docker – For containerizing the application, ensuring consistency across development, testing, and production environments.
+
+*Jenkins – A powerful automation server used for building complex CI/CD pipelines.
+
+*CircleCI / Travis CI – Alternative CI tools for testing and deploying code.
+
+*Kubernetes – For orchestrating container deployment at scale (if used in production).
+
+*Heroku / Netlify / Vercel – For simple and fast deployments, especially for frontend apps.
